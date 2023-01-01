@@ -1,0 +1,79 @@
+/* Write your CSS code here */
+
+/* .login-page-bg-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} */
+
+.website-login-image {
+  height: 500px;
+  width: 850px;
+}
+.login-page-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 35px;
+}
+
+@media screen and (min-width: 576px) {
+  .login-page-bg-container {
+    flex-direction: column;
+  }
+  .login-form-container {
+    margin-top: 35px;
+    margin-bottom: 55px;
+    padding-bottom: 35px;
+  }
+}
+
+.login-form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 55px;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.web-site-logo {
+  height: 60px;
+  width: 250px;
+}
+
+.username-input-element-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.username-label {
+  color: #1e293b;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.username-input {
+  background-color: #d7dfe9;
+  height: 40px;
+  width: 350px;
+  border: none;
+  border-radius: 5px;
+  padding: 18px;
+}
+
+.login-button {
+  height: 35px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 7px;
+  margin-top: 25px;
+  cursor: pointer;
+}
